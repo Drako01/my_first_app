@@ -10,6 +10,12 @@ from django.http import HttpResponse, JsonResponse
 def index(request):
     return HttpResponse("¡Hola, mundo...!")
 
+def index_html(request):
+    ctx = {"nombre": "Alejandro",
+            "cursos": "Python",
+            "edad": "46 Añitos"            
+            }
+    return render(request, "my_app/index.html", ctx)
 
 def acerca_de(request):
     return HttpResponse('Hola a todos, esto es Acerca de.!')

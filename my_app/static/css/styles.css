@@ -1,0 +1,36 @@
+body {
+    background: rgb(215, 215, 215);
+}
+
+button {
+    background: rgb(1, 86, 99);
+    border-radius: 10px;
+    height: 40px;
+    width: 100px;
+    color: azure;
+    font-size: 15px;   
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+.cuerpo,
+.hijos 
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cuerpo button{
+    cursor: pointer;
+}
+
+.logo img{
+    padding: 15%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 200px
+}
